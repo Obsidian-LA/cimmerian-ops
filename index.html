@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cimmerian Ops</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    color:#fff;
+    font-family:'Inter',sans-serif;
+}
+
+.hero{
+    position:relative;
+    height:100vh;
+    background:url('cimmerianopslogo.jpeg') center center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:rgba(0,0,0,.65);
+}
+
+.content{
+    position:relative;
+    z-index:2;
+    max-width:900px;
+    padding:20px;
+}
+
+h1{
+    font-family:'Cinzel',serif;
+    font-size:5rem;
+    letter-spacing:6px;
+    margin-bottom:20px;
+}
+
+.tagline{
+    color:#c8a96a;
+    letter-spacing:8px;
+    text-transform:uppercase;
+    margin-bottom:30px;
+    font-size:1rem;
+}
+
+.subtext{
+    font-size:1.2rem;
+    color:#d5d5d5;
+    margin-bottom:40px;
+}
+
+.button{
+    display:inline-block;
+    padding:16px 38px;
+    border:1px solid #c8a96a;
+    color:#c8a96a;
+    text-decoration:none;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    transition:.3s;
+}
+
+.button:hover{
+    background:#c8a96a;
+    color:#000;
+}
+
+.services{
+    background:#050505;
+    padding:100px 40px;
+}
+
+.services h2{
+    text-align:center;
+    font-family:'Cinzel',serif;
+    font-size:2rem;
+    margin-bottom:60px;
+    color:#c8a96a;
+}
+
+.grid{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:30px;
+}
+
+.card{
+    border:1px solid rgba(200,169,106,.25);
+    padding:30px;
+    background:#0b0b0b;
+}
+
+.card h3{
+    font-family:'Cinzel',serif;
+    margin-bottom:15px;
+    color:#c8a96a;
+}
+
+.card p{
+    color:#cfcfcf;
+    line-height:1.7;
+}
+
+.quote{
+    padding:100px 30px;
+    text-align:center;
+    background:#000;
+}
+
+.quote h2{
+    font-family:'Cinzel',serif;
+    font-size:2.5rem;
+    font-weight:400;
+}
+
+footer{
+    text-align:center;
+    padding:40px;
+    border-top:1px solid rgba(255,255,255,.08);
+    color:#888;
+}
+
+@media(max-width:768px){
+
+h1{
+    font-size:3rem;
+}
+
+.tagline{
+    letter-spacing:3px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+    <div class="content">
+
+        <h1>CIMMERIAN OPS</h1>
+
+        <div class="tagline">
+            Research • Verification • Intelligence
+        </div>
+
+        <div class="subtext">
+            Bringing clarity to complex questions.
+        </div>
+
+        <a href="mailto:info@cimmerianops.com" class="button">
+            Request Information
+        </a>
+
+    </div>
+
+</section>
+
+<section class="services">
+
+    <h2>Services</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Research</h3>
+            <p>
+                Open-source intelligence, public records research, and information gathering.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Verification</h3>
+            <p>
+                Confirm facts, validate claims, and identify inconsistencies.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Intelligence</h3>
+            <p>
+                Transform information into actionable insight and understanding.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Reporting</h3>
+            <p>
+                Clear, concise reports delivered with professionalism and discretion.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="quote">
+
+    <h2>
+        We don't make assumptions.<br>
+        We find answers.
+    </h2>
+
+</section>
+
+<footer>
+
+    © 2026 Cimmerian Ops
+
+</footer>
+
+</body>
+</html>
