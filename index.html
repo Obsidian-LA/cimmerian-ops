@@ -28,12 +28,13 @@ body{
 .hero{
     position:relative;
     height:100vh;
-    background:url('cimmerianopslogo.jpeg') center top/contain no-repeat;
+    background:url('cimmerianopslogo.jpeg') center center/cover no-repeat;
     background-color:#000;
     display:flex;
     align-items:center;
     justify-content:center;
     text-align:center;
+    background-attachment: fixed;
 }
 
 .hero::before{
@@ -87,7 +88,7 @@ h1{
 }
 
 .button:hover{
-    background:#a5adb8;
+    background:white;
     color:#000;
 }
 
@@ -113,7 +114,7 @@ h1{
 }
 
 .card{
-    border:1px solid rgba(200,169,106,.25);
+    border:1px solid rgba(255,255,255,.15);
     padding:30px;
     background:#0b0b0b;
 }
@@ -121,7 +122,7 @@ h1{
 .card h3{
     font-family:'Cinzel',serif;
     margin-bottom:15px;
-    color:#a5adb8;
+    color:#d7dbe0;
 }
 
 .card p{
